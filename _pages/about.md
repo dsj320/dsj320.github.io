@@ -7,6 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
 ✏️ Biography
 ------
 I'm a  undergraduate student from [Computer Science and Technology](https://cs.scu.edu.cn/), [Sichuan University](https://www.scu.edu.cn/).
@@ -28,7 +29,7 @@ I am admitted to purse a master's degree in Institute of Automation, Chinese Aca
       <p><b>GPA:3.86/4.0</b></p>
     </div>
     <div class="column" style="float:left;width:15%">    
-        <img src="./images/scu.png">  
+        <!-- <img src="./images/scu.png">   -->
     </div> 
     <div style="clear: both;"></div>
     </div>
