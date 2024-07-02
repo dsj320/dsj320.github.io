@@ -35,7 +35,7 @@ I am admitted to purse a master's degree in Institute of Automation, Chinese Aca
 </div>  
 <br>
 
-🏆 Honors & Awards
+🏆 Honors and Awards
 ------
 * 47th ICPC Shenyang Silver Medal
 * 13th CMC National Third Prize
