@@ -29,3 +29,15 @@ h1 {
   body {
     font-size: 1em;
   }
+  /* 调整 KaTeX 渲染的公式字体大小 */
+.katex {
+    font-size: 1em; /* 这里的 1em 表示与正文字体大小一致 */
+  }
+  
+  .katex-inline {
+    font-size: 1em; /* 这里的 1em 表示与正文字体大小一致 */
+  }
+  
+  .katex-display {
+    font-size: 1em; /* 这里的 1em 表示与正文字体大小一致 */
+  }
