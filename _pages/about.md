@@ -12,9 +12,9 @@ redirect_from:
 I'm a  undergraduate student from [Computer Science and Technology](https://cs.scu.edu.cn/), [Sichuan University](https://www.scu.edu.cn/).
 
 
-My current research interests lie in Computer Vision,Biometrics,3D Vision.
+My current research interests lie in Computer Vision,Biometrics.
 
-I am admitted to purse a master's degree in Institute of Automation, Chinese Academy of Sciences(Casia) without entrance examination.
+I am admitted to purse a master's degree in Institute of Automation, Chinese Academy of Sciences(CASIA) without entrance examination.
 
 <br>
 
@@ -22,7 +22,7 @@ I am admitted to purse a master's degree in Institute of Automation, Chinese Aca
 ------
   <div class="row">   
     <div class="column" style="float:left;width:85%"> 
-     	<p>SiChuan University, Cheng'du, P.R. China</p>
+     	<p>Sichuan University, Cheng'du, P.R. China</p>
       <p>B. Eng. from Sep. 2020 to 2024. </p>
       <p>Major in Computer Science and Technology.
       <p><b>GPA:3.86/4.0</b></p>
@@ -35,8 +35,8 @@ I am admitted to purse a master's degree in Institute of Automation, Chinese Aca
   
 <br>
 
-📄 Publication
-------
+<!-- 📄 Publication
+------ -->
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/PanoAvatar.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -72,7 +72,6 @@ Ling-Hao Chen\*, **Jiawei Zhang\***, Yewen Li, Yiren Pang, Xiaobo Xia, Tongliang
 </div>
 
 <br> -->
-<br>
 
 🏆 Honors & Awards
 ------
