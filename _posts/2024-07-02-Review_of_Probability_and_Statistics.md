@@ -8,9 +8,7 @@ tags:
 ---
 
 去年保研复习阶段做的一点总结(纯总结，没有细节)
-
-## 大数定律
-
+### 大数定律
 一般的，若随机变量序列$\{X_n\}$满足：
 $$
 对于\forall \epsilon>0,有\lim _{n\rightarrow \infty}P(|\frac{1}{n}\sum_{i=1}^nX_i-\frac{1}{n}\sum_{i=1}^nE(X_i)|<\epsilon)=1
