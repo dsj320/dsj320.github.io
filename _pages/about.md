@@ -23,10 +23,10 @@ I am admitted to purse a master's degree in Institute of Automation, Chinese Aca
 ------
   <div class="row">   
     <div class="column" style="float:left;width:85%"> 
-     	<p>School of Artificial Intelligence, Xidian University, Xi'an, P.R. China</p>
+     	<p> Sichuan University, Cheng'du, P.R. China</p>
       <p>B. Eng. from Sep. 2020 to Now. </p>
-      <p>Major in Artificial Intelligence, <em>Experimental Class</em></p>
-      <p><b>GPA:3.8/4.0</b></p>
+      <p>Major in Computer Science and Technology </p>
+      <p><b>GPA:3.86/4.0</b></p>
     </div>
     <div class="column" style="float:left;width:15%">    
         <img src="./images/scu.png">  
@@ -36,9 +36,9 @@ I am admitted to purse a master's degree in Institute of Automation, Chinese Aca
     
 <br>
 
-<!-- 🏆 Honors & Awards
+🏆 Honors & Awards
 ------
 * 47th ICPC Shenyang Silver Medal
-* 13th CMC National Third Prize -->
+* 13th CMC National Third Prize
 
 
