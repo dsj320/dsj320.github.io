@@ -41,3 +41,9 @@ h1 {
   .katex-display {
     font-size: 1em; /* 这里的 1em 表示与正文字体大小一致 */
   }
+
+
+.sidebar {
+    font-size: 18px; /* 设置为你需要的字体大小 */
+  }
+  
