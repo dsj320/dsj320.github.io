@@ -2,27 +2,27 @@
 
 /* 调整标题字体大小 */
 h1 {
-    font-size: 2.5em; /* h1 标题字体大小 */
+    font-size: 26px; /* h1 标题字体大小 */
   }
   
   h2 {
-    font-size: 2em; /* h2 标题字体大小 */
+    font-size: 24px; /* h2 标题字体大小 */
   }
   
   h3 {
-    font-size: 1.75em; /* h3 标题字体大小 */
+    font-size: 22pxem; /* h3 标题字体大小 */
   }
   
   h4 {
-    font-size: 1.5em; /* h4 标题字体大小 */
+    font-size: 20px; /* h4 标题字体大小 */
   }
   
   h5 {
-    font-size: 1.25em; /* h5 标题字体大小 */
+    font-size: 18px; /* h5 标题字体大小 */
   }
   
   h6 {
-    font-size: 1em; /* h6 标题字体大小 */
+    font-size: 16px; /* h6 标题字体大小 */
   }
   
   /* 确保正文字体大小合适 */
@@ -43,7 +43,3 @@ h1 {
   }
 
 
-.sidebar {
-    font-size: 18px; /* 设置为你需要的字体大小 */
-  }
-  
