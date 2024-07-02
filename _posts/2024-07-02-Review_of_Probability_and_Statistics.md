@@ -8,12 +8,13 @@ tags:
 ---
 
 去年保研复习阶段做的一点总结(纯总结，没有细节)
-
-### 大数定律
+## 大数定律
 一般的，若随机变量序列$\{X_n\}$满足：
+
 $$
 对于\forall \epsilon>0,有\lim _{n\rightarrow \infty}P(|\frac{1}{n}\sum_{i=1}^nX_i-\frac{1}{n}\sum_{i=1}^nE(X_i)|<\epsilon)=1
 $$
+
 则称随机变量序列${X_n}$服从大数定律
 
 
@@ -24,7 +25,8 @@ $$
 
 #### 伯努利大数定律
 
-设$S_n$为n重伯努利实验中事件A发生的次数，p为每次实验中A出现的概率。则对与任意的$\epsilon>0$，有
+设$S_n$为$n$重伯努利实验中事件A发生的次数，p为每次实验中A出现的概率。则对与任意的$\epsilon>0$，有
+
 $$
 \lim _{n\rightarrow \infty}P(|\frac{S_n}{n}-p|<\epsilon)=1
 $$
@@ -36,10 +38,9 @@ $$
 
 #### 切比雪夫大数定律
 
-设${X_n}$为一系列**两两不相关**的随机变量序列，若每个**$X_i$的方差存在**，并且有共同的上界，即**$Var(X_i)<=c(i=1,2,....)$**,则${X_n}$服从上述大数定律
+设${X_n}$为一系列**两两不相关**的随机变量序列，若每个$X_i$的方差存在，并且有共同的上界，即$Var(X_i)<=c(i=1,2,....)$,则${X_n}$服从上述大数定律
 
 切比雪夫只要求$X_n$两两相关，并且方差有共同上界即可，因此伯努利大数定律是切比雪夫大数定律的**特例**。
-
 
 
 
@@ -52,13 +53,13 @@ $$
 
 
 
-### 方差不存在
+### 无方差存在假设的大数定律
 
 若随机变量的方差存在，数学期望一定存在，反之则不一定。上述几个大数定律都假定了方差存在，而下面定律去掉了这一假设。
 
 #### 辛钦大数定律
 
-设${X_n}$为一系列**独立同分布**的随机变量序列，若每个**$X_i$的数学期望存在**，并且有共同的上界，则${X_n}$服从上述大数定律
+设${X_n}$为一系列**独立同分布**的随机变量序列，若每个$X_i$的数学期望存在，并且有共同的上界，则${X_n}$服从上述大数定律
 
 辛钦大数定律的证明用到了特征函数，此处不再过多细述。
 
@@ -79,11 +80,14 @@ $$
 
 #### 林德波格-列维中心极限定理
 
-设$\{X_n\}$是**独立同分布**的随机变量序列，且**$\bold{E(X_i)=\mu_i,Var(X_i)=\sigma^2>0}$**存在，若记
+设$\{X_n\}$是**独立同分布**的随机变量序列，且${E(X_i)=\mu_i,Var(X_i)=\sigma^2>0}$存在，若记
+
 $$
 Y_n^*=\frac{X_1+X_2+....X_n-n\mu}{\sigma\sqrt{n}},(即Y_n=\frac{1}{n}\sum_{i=1}^nX_i的标准化随机变量)
 $$
+
 则对于任意的实数y,有
+
 $$
 \lim_{n \to \infty} P(Y_n^*\leq y) = \Phi(y)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^ye^{-\frac{t^2}{2}}dt
 $$
@@ -91,17 +95,20 @@ $$
 
 #### 棣莫弗-拉普拉斯中心极限定理
 
-设$S_n$为n重伯努利实验中事件A发生的次数，p为每次实验中A出现的概率,记
+设$S_n$为n重伯努利实验中事件A发生的次数，$p$为每次实验中A出现的概率,记
+
 $$
 Y_n^*=\frac{S_n-np}{\sqrt{npq}}
 $$
+
 则有
+
 $$
 \lim_{n \to \infty} P(Y_n^*\leq y) = \Phi(y)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^ye^{-\frac{t^2}{2}}dt
 $$
-该中心极限定理是历史上第一个中心极限定理，是专门针对二项分布的，，因此称为“**二项分布的正态近似**”
+该中心极限定理是历史上第一个中心极限定理，是专门针对二项分布的，因此称为**二项分布的正态近似**
 
-当p比较小，二项分布用泊松分布作近似比较好，而np较大时，用正态分布近似较好
+当$p$比较小，二项分布用泊松分布作近似比较好，而$np$较大时，用正态分布近似较好
 
 
 
@@ -135,15 +142,17 @@ $$
 $$
 **样本方差**
 $$
-s_n^2=\frac{1}{n}\sum_{i=1}^n(x_i-\overline{x}^2),常用s^2=\frac{1}{n-1}\sum_{i=1}^n(x_i-\overline{x}^2)作为方差，也称为无偏方差
+s_n^2=\frac{1}{n}\sum_{i=1}^n(x_i-\overline{x}^2),
 $$
-其中n-1称为**偏差平方和的自由度**，其含义是：在$\overline{x}$确定后。n个偏差$x_1-\overline{x},x_2-\overline{x}...x_n-\overline{x}$中只有n-1个可以自由变动，而另一个则不能自由取值，这是因为有$\sum_{i=1}^n(x_i-\overline{x})=0$成立
+常用$
+s^2=\frac{1}{n-1}\sum_{i=1}^n(x_i-\overline{x}^2)$作为方差，也称为无偏方差。其中n-1称为**偏差平方和的自由度**，其含义是：在$\overline{x}$确定后。n个偏差$x_1-\overline{x},x_2-\overline{x}...x_n-\overline{x}$中只有n-1个可以自由变动，而另一个则不能自由取值，这是因为有$\sum_{i=1}^n(x_i-\overline{x})=0$成立
 
 
 
 **样本矩**
 
 设$x_1,x_2,...x_k$是一组样本，
+
 $$
 a_k=\frac{1}{n}\sum_{i=1}^nx_i^k，称为样本的k阶原点距\\
 b_k=\frac{1}{n}\sum_{i=1}^n(x_i-\overline{x})^k称为样本的k阶中心矩
@@ -154,13 +163,15 @@ $$
 介绍卡方分布前，先介绍伽马分布
 
 若随机变量的分布函数为：
+
 $$
 p(x)= \begin{cases}
 \frac{\lambda^\alpha}{\Gamma(\alpha)}x^{\alpha-1}e^{-\lambda x}, &x\ge0 \\
 0, &x<0
 \end{cases} 
 $$
-则称X服从伽马分布，记作$X$~$Ga(\alpha,\lambda)$.,数学期望和方差分别为$\frac{\alpha}{\lambda}$,和$\frac{\alpha}{\lambda^2}$
+
+则称$X$服从伽马分布，记作$X$~$Ga(\alpha,\lambda)$.,数学期望和方差分别为$\frac{\alpha}{\lambda}$,和$\frac{\alpha}{\lambda^2}$
 
 
 
@@ -174,18 +185,18 @@ $$
 
 为
 $$
-\begin{align}
+ \begin{align*}
 \overline{x}&=\frac{1}{n}\sum_{i=1}^nx_i\\
 s^2&=\frac{1}{n-1}\sum_{i=1}^n(x_i-\overline{x}^2)
-\end{align}
+ \end{align*}
 $$
 则有以下性质成立：
 $$
-\begin{align}
+\begin{align*}
 &(1)\ \ \overline{x}与s^2相互独立\\
 &(2)\ \ \overline{x} \sim N(\mu,\sigma/n)\\
 &(3)\ \ \frac{(n-1)s^2}{\sigma^2}\sim \chi^2(n-1)
-\end{align}
+\end{align*}
 $$
 
 
@@ -236,9 +247,7 @@ $$
 
 
 
-方法就是，利用密度函数计算出样本的各种各种矩，$a_1,a_2....a_k$,假设参数$\theta_1,\theta_2.....\theta_k$能表示成$a_1,a_2...a_k$的函数,
-
-即$\theta_j=\theta_j(a_1,a_2,...a_k)$,则$\hat{\theta_j}=$$\theta_j(a_1,a_2,...a_k)$,若要估计$\eta=g(\theta_1,\theta_2....\theta_k)$,则$\eta$的矩估计$\hat{\eta}=g(\hat{\theta_1},\hat{\theta_2},...\hat{\theta_k})$
+方法就是，利用密度函数计算出样本的各种各种矩，$a_1,a_2....a_k$,假设参数$\theta_1,\theta_2.....\theta_k$能表示成$a_1,a_2...a_k$的函数,即$\theta_j=\theta_j(a_1,a_2,...a_k)$。则$\hat{\theta_j}=$$\theta_j(a_1,a_2,...a_k)$,若要估计$\eta=g(\theta_1,\theta_2....\theta_k)$,则$\eta$的矩估计$\hat{\eta}=g(\hat{\theta_1},\hat{\theta_2},...\hat{\theta_k})$
 
 
 
@@ -269,6 +278,7 @@ $p(x_i;\theta)$是密度函数，是$\theta$的函数。
 
 
 ### 区间估计
+pending...
 
 
 
