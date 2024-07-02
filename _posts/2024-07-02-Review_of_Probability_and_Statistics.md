@@ -182,10 +182,13 @@ $$
 关于卡方分布的一个**重要定理**：
 
 设$x_1,x_2,....x_n$是来自正态总体$N(\mu,\sigma^2)$的样本，其样本均值和方差分别为
+
 $$
 \overline{x}=\frac{1}{n}\sum_{i=1}^nx_i,\ \ s^2=\frac{1}{n-1}\sum_{i=1}^n(x_i-\overline{x}^2)
 $$
+
 则有以下性质成立：
+
 $$
 \begin{aligned}
 &(1)\ \ \overline{x}与s^2相互独立\\
