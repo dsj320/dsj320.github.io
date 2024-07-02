@@ -185,18 +185,18 @@ $$
 
 为
 $$
- \begin{align*}
+ \begin{aligned}
 \overline{x}&=\frac{1}{n}\sum_{i=1}^nx_i\\
 s^2&=\frac{1}{n-1}\sum_{i=1}^n(x_i-\overline{x}^2)
- \end{align*}
+ \end{aligned}
 $$
 则有以下性质成立：
 $$
-\begin{align*}
+\begin{aligned}
 &(1)\ \ \overline{x}与s^2相互独立\\
 &(2)\ \ \overline{x} \sim N(\mu,\sigma/n)\\
 &(3)\ \ \frac{(n-1)s^2}{\sigma^2}\sim \chi^2(n-1)
-\end{align*}
+\end{aligned}
 $$
 
 
