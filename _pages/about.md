@@ -7,7 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 ✏️ Biography
 ------
 I'm a  undergraduate student from [Computer Science and Technology](https://cs.scu.edu.cn/), [Sichuan University](https://www.scu.edu.cn/).
