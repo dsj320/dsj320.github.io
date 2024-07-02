@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "dsj320"
+title                    : "Shuangjun Du's Homepage"
 title_separator          : "-"
 name                     : &name "dsj320"
 description              : &description "a Senior student in Sichuan University"
@@ -80,13 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "dsj320"
+  name             : "Shuangjun Du(杜双君)"
   avatar           : "profile.png"
-  bio              : "会当凌绝顶，一览众山小"
+  bio              : 
   location         : "China,Beijing"
   employer         :
   pubmed           : 
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com.hk/citations?user=EdN8M7YAAAAJ&hl=zh-CN"
   email            : "dushuangjun@163.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
