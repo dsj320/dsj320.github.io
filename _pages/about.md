@@ -18,7 +18,7 @@ My current research interests lie in Computer Vision,Biometrics.
 I am admitted to purse a master's degree in Institute of Automation, Chinese Academy of Sciences(CASIA) without entrance examination.
 
 <br>
-
+<!-- 
 📘 Education
 ------
   <div class="row">   
@@ -32,9 +32,9 @@ I am admitted to purse a master's degree in Institute of Automation, Chinese Aca
         <img src="./images/scu.png">  
     </div> 
     <div style="clear: both;"></div>
-    </div>
+  </div>
   
-<br>
+<br> -->
 
 🏆 Honors & Awards
 ------
@@ -43,7 +43,7 @@ I am admitted to purse a master's degree in Institute of Automation, Chinese Aca
   
 <br>
 
-💻Internships
+💻 Internships
 ------
   <div class="row">   
     <div class="column" style="float:left;width:85%"> 
