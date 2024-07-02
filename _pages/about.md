@@ -29,7 +29,7 @@ I am admitted to purse a master's degree in Institute of Automation, Chinese Aca
       <p><b>GPA:3.86/4.0</b></p>
     </div>
     <div class="column" style="float:left;width:15%">    
-        <!-- <img src="./images/scu.png">   -->
+        <img src="./images/scu.png">  
     </div> 
     <div style="clear: both;"></div>
     </div>
@@ -40,6 +40,7 @@ I am admitted to purse a master's degree in Institute of Automation, Chinese Aca
 ------
 * 47th ICPC Shenyang Silver Medal
 * 13th CMC National Third Prize
+  
 <br>
 
 💻Internships
