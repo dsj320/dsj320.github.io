@@ -1,0 +1,31 @@
+/* assets/css/custom.css */
+
+/* 调整标题字体大小 */
+h1 {
+    font-size: 2.5em; /* h1 标题字体大小 */
+  }
+  
+  h2 {
+    font-size: 2em; /* h2 标题字体大小 */
+  }
+  
+  h3 {
+    font-size: 1.75em; /* h3 标题字体大小 */
+  }
+  
+  h4 {
+    font-size: 1.5em; /* h4 标题字体大小 */
+  }
+  
+  h5 {
+    font-size: 1.25em; /* h5 标题字体大小 */
+  }
+  
+  h6 {
+    font-size: 1em; /* h6 标题字体大小 */
+  }
+  
+  /* 确保正文字体大小合适 */
+  body {
+    font-size: 1em;
+  }
