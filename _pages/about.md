@@ -17,7 +17,6 @@ My current research interests lie in Computer Vision,Biometrics.
 
 I am admitted to purse a master's degree in Institute of Automation, Chinese Academy of Sciences(CASIA) without entrance examination.
 
-<br>
 
 📘 Education
 ------
@@ -34,11 +33,25 @@ I am admitted to purse a master's degree in Institute of Automation, Chinese Aca
     <div style="clear: both;"></div>
     </div>
     
-<br>
+
 
 🏆 Honors & Awards
 ------
 * 47th ICPC Shenyang Silver Medal
 * 13th CMC National Third Prize
+
+💻 Internships
+------
+  <div class="row">   
+    <div class="column" style="float:left;width:85%"> 
+      <p>2023.11—2024.01, Research intern</p>
+      <p>OPPO Research Institute</p>
+      <p><i>&nbsp;&nbsp;&nbsp;● Facial Editing,Face Swapping</i></p>
+    </div>
+    <div class="column" style="float:left;width:15%">    
+        <img src="./images/oppo.png">  
+    </div> 
+    <div style="clear: both;"></div>
+  </div>
 
 
