@@ -7,39 +7,48 @@ redirect_from:
   - /about/
   - /about.html
 ---
-✏️ Biography
+Biography
 ------
-I'm a  undergraduate student from [Computer Science and Technology](https://cs.scu.edu.cn/), [Sichuan University](https://www.scu.edu.cn/).
+I completed my undergraduate studies at Sichuan University, majoring in Computer Science and Technology. 
+
+I am currently pursuing a master’s degree at the Institute of Automation, Chinese Academy of Sciences (CASIA), under the supervision of Professor Li Qi. My research interests focus on biometric recognition and artificial intelligence content generation.
 
 
-My current research interests lie in Computer Vision,Biometrics.
-
-I am admitted to purse a master's degree in Institute of Automation, Chinese Academy of Sciences(CASIA) without entrance examination.
-
-
-📘 Education
+Education
 ------
-  <div class="row">   
-    <div class="column" style="float:left;width:85%"> 
-     	<p> Sichuan University, Cheng'du, P.R. China</p>
-      <p>B. Eng. from Sep. 2020 to Now. </p>
-      <p>Major in Computer Science and Technology </p>
-      <p><b>GPA:3.86/4.0</b></p>
+<div class="row" style="margin-bottom: 20px;">   
+    <div class="column" style="float:left;width:85%; font-family: 'Times New Roman', serif;"> 
+        <h3>Sichuan University, Chengdu, P.R. China</h3>
+        <p><b>Bachelor of Engineering</b> (Sep. 2020 - 2024)</p>
+        <p><i>Major: Computer Science and Technology</i></p>
+        <p><b>GPA: 3.86/4.0</b></p>
     </div>
-    <div class="column" style="float:left;width:15%">    
-        <img src="./images/scu.png">  
+    <div class="column" style="float:left;width:15%;">    
+        <img src="./images/scu.png" style="width: 100%; max-width: 120px; border-radius: 8px;">  
     </div> 
     <div style="clear: both;"></div>
+</div>
+
+<div class="row" style="margin-bottom: 20px;">   
+    <div class="column" style="float:left;width:85%; font-family: 'Times New Roman', serif;"> 
+        <h3>Institute of Automation, Chinese Academy of Sciences, Beijing, P.R. China</h3>
+        <p><b>Master of Science</b> (2024 - Present)</p>
+        <p><i>Research Areas: Biometric Recognition, AI Content Generation</i></p>
+        <p><b>Supervisor: Professor Li Qi</b></p>
     </div>
-    
+    <div class="column" style="float:left;width:15%;">    
+        <img src="./images/casia.png" style="width: 100%; max-width: 120px; border-radius: 8px;">  
+    </div> 
+    <div style="clear: both;"></div>
+</div>
 
 
-🏆 Honors & Awards
+Honors & Awards
 ------
 * 47th ICPC Shenyang Silver Medal
 * 13th CMC National Third Prize
 
-💻 Internships
+Internships
 ------
   <div class="row">   
     <div class="column" style="float:left;width:85%"> 
