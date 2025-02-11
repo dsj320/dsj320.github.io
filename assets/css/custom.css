@@ -1,0 +1,45 @@
+/* assets/css/custom.css */
+
+/* 调整标题字体大小 */
+h1 {
+    font-size: 26px; /* h1 标题字体大小 */
+  }
+  
+  h2 {
+    font-size: 24px; /* h2 标题字体大小 */
+  }
+  
+  h3 {
+    font-size: 22pxem; /* h3 标题字体大小 */
+  }
+  
+  h4 {
+    font-size: 20px; /* h4 标题字体大小 */
+  }
+  
+  h5 {
+    font-size: 18px; /* h5 标题字体大小 */
+  }
+  
+  h6 {
+    font-size: 16px; /* h6 标题字体大小 */
+  }
+  
+  /* 确保正文字体大小合适 */
+  body {
+    font-size: 1em;
+  }
+  /* 调整 KaTeX 渲染的公式字体大小 */
+.katex {
+    font-size: 1em; /* 这里的 1em 表示与正文字体大小一致 */
+  }
+  
+  .katex-inline {
+    font-size: 1em; /* 这里的 1em 表示与正文字体大小一致 */
+  }
+  
+  .katex-display {
+    font-size: 1em; /* 这里的 1em 表示与正文字体大小一致 */
+  }
+
+
