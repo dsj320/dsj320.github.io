@@ -21,6 +21,10 @@ redirect_from:
     font-size: 1.3em;
     margin-top: 1.5em;
   }
+  .page__content h3:first-of-type {
+    margin-top: 0;
+    padding-top: 0;
+  }
   .icon-container {
     margin-right: 10px;
     color: #3498db;
@@ -98,24 +102,27 @@ redirect_from:
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
+  .content-wrapper {
+    margin-top: 0;
+    padding-top: 0;
+  }
 </style>
 
+<div class="content-wrapper">
 ### <i class="fas fa-user icon-container"></i>Biography
 
 <div class="bio-text">
-I'm a first-year master student at <a href="https://casia.ac.cn" class="bio-link">Institute of Automation, Chinese Academy of Sciences (CASIA)</a>, under the supervision of <span class="bio-highlight">Professor Li Qi</span>. My research interests focus on <span class="bio-highlight">biometric recognition</span> and <span class="bio-highlight">artificial intelligence content generation</span>.
+I'm a first-year master student at <a href="https://ia.cas.cn/" class="bio-link">Institute of Automation, Chinese Academy of Sciences (CASIA)</a>, under the supervision of <span class="bio-highlight">Associate Professor Li Qi</span>. My research interests focus on <span class="bio-highlight">biometric recognition</span> and <span class="bio-highlight">artificial intelligence content generation</span>.
 </div>
 
 <div class="bio-text">
-I received my bachelor's degree in Computer Science and Technology from <a href="https://www.scu.edu.cn" class="bio-link">Sichuan University</a> (2020-2024). Currently, I'm pursuing my master's degree at CASIA (2024-Present), where I'm working on cutting-edge research in AI and computer vision.
+I received my bachelor's degree in Computer Science and Technology from <a href="https://www.scu.edu.cn" class="bio-link">Sichuan University</a> (2020-2024). Currently, I'm pursuing my master's degree at CASIA (2024-Present).
 </div>
 
 <div class="edu-logos">
   <img src="./images/scu.png" alt="Sichuan University" class="edu-logo">
   <img src="./images/casia.png" alt="CASIA" class="edu-logo">
 </div>
-
-
 
 ### <i class="fas fa-award icon-container"></i>Honors & Awards
 
@@ -143,6 +150,7 @@ I received my bachelor's degree in Computer Science and Technology from <a href=
   <div class="internship-image">    
     <img src="./images/oppo.png" alt="OPPO">  
   </div> 
+</div>
 </div>
 
 
