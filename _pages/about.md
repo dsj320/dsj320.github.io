@@ -151,15 +151,4 @@ I maintain a <a href="#" class="bio-link">blog</a> (in Chinese) where I write ab
   </div> 
 </div>
 
-## <i class="fas fa-code icon-container"></i>Skills
-
-<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px;">
-  <span style="background-color: #3498db; color: white; padding: 5px 10px; border-radius: 5px;">Python</span>
-  <span style="background-color: #2ecc71; color: white; padding: 5px 10px; border-radius: 5px;">PyTorch</span>
-  <span style="background-color: #e74c3c; color: white; padding: 5px 10px; border-radius: 5px;">Computer Vision</span>
-  <span style="background-color: #9b59b6; color: white; padding: 5px 10px; border-radius: 5px;">Deep Learning</span>
-  <span style="background-color: #f39c12; color: white; padding: 5px 10px; border-radius: 5px;">C++</span>
-  <span style="background-color: #1abc9c; color: white; padding: 5px 10px; border-radius: 5px;">Algorithm</span>
-</div>
-
 
