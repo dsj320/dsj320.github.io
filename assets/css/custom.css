@@ -30,6 +30,8 @@ h1 {
     font-size: 1em;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     line-height: 1.65;
+    margin-top: 0;
+    padding-top: 0;
   }
   /* 调整 KaTeX 渲染的公式字体大小 */
 .katex {
@@ -123,6 +125,7 @@ h1 {
 .greedy-nav {
   background: #fff;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  margin-top: 0;
 }
 
 .greedy-nav a {
@@ -173,6 +176,36 @@ h1 {
   .page__content p, .page__content li {
     font-size: 1em;
   }
+}
+
+/* 减少页面顶部空白 */
+.masthead {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.masthead__inner-wrap {
+  padding: 0.5em 1em;
+}
+
+.page__content {
+  margin-top: 0;
+  padding-top: 1em;
+}
+
+#main {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* 调整页面标题间距 */
+.page__title {
+  margin-top: 0;
+}
+
+/* 调整页面内容顶部间距 */
+.page__inner-wrap header {
+  margin-bottom: 1em;
 }
 
 
