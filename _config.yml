@@ -8,9 +8,9 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Shuangjun Du's Homepage"
-title_separator          : "-"
+title_separator          : "|"
 name                     : &name "dsj320"
-description              : &description "a Senior student in Sichuan University"
+description              : &description "Master Student at Institute of Automation, Chinese Academy of Sciences"
 url                      : https://dsj320.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "dsj320/dsj320.github.io"
@@ -80,11 +80,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Shuangjun Du(杜双君)"
+  name             : "Shuangjun Du (杜双君)"
   avatar           : "profile.png"
-  bio              : 
-  location         : "China,Beijing"
-  employer         :
+  bio              : "Master Student at CASIA<br>Research: Biometric Recognition & AI Content Generation"
+  location         : "Beijing, China"
+  employer         : "Institute of Automation, CAS"
   pubmed           : 
   googlescholar    : "https://scholar.google.com.hk/citations?user=EdN8M7YAAAAJ&hl=zh-CN"
   email            : "dushuangjun@163.com"
@@ -309,3 +309,16 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/dsj320"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:dushuangjun@163.com"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com.hk/citations?user=EdN8M7YAAAAJ&hl=zh-CN"

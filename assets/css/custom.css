@@ -28,6 +28,8 @@ h1 {
   /* 确保正文字体大小合适 */
   body {
     font-size: 1em;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    line-height: 1.65;
   }
   /* 调整 KaTeX 渲染的公式字体大小 */
 .katex {
@@ -41,5 +43,136 @@ h1 {
   .katex-display {
     font-size: 1em; /* 这里的 1em 表示与正文字体大小一致 */
   }
+
+/* Custom CSS for modern look */
+
+/* General styling improvements */
+.page__content p, .page__content li {
+  font-size: 1.05em;
+}
+
+/* Card styling for sections */
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 25px;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+/* Improved link styling */
+.page__content a {
+  text-decoration: none;
+  color: #2980b9;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 0.2s ease;
+}
+
+.page__content a:hover {
+  border-bottom-color: #2980b9;
+}
+
+/* Improved headings */
+.page__content h1, .page__content h2, .page__content h3 {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.page__content h2 {
+  font-size: 1.8em;
+  margin-top: 2em;
+}
+
+.page__content h3 {
+  font-size: 1.4em;
+  margin-top: 1.5em;
+}
+
+/* Improved author sidebar */
+.author__avatar img {
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.author__avatar img:hover {
+  transform: scale(1.05);
+}
+
+.author__content {
+  margin-top: 15px;
+}
+
+.author__name {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.author__bio {
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+/* Improved navigation */
+.greedy-nav {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.greedy-nav a {
+  transition: color 0.2s ease;
+}
+
+.greedy-nav a:hover {
+  color: #3498db;
+}
+
+/* Improved footer */
+.page__footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+}
+
+.page__footer a {
+  color: #3498db;
+}
+
+/* Skill tags */
+.skill-tag {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  color: white;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animated {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .card {
+    padding: 15px;
+  }
+  
+  .page__content p, .page__content li {
+    font-size: 1em;
+  }
+}
 
 
