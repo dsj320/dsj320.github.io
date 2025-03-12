@@ -14,6 +14,13 @@ redirect_from:
     padding-bottom: 0.5em;
     color: #494e52;
   }
+  .page__content h3 {
+    border-bottom: 1px solid #f2f3f3;
+    padding-bottom: 0.5em;
+    color: #494e52;
+    font-size: 1.3em;
+    margin-top: 1.5em;
+  }
   .icon-container {
     margin-right: 10px;
     color: #3498db;
@@ -80,50 +87,37 @@ redirect_from:
     border-radius: 3px;
     font-weight: 500;
   }
+  .edu-logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+  }
+  .edu-logo {
+    max-width: 120px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
 </style>
 
-## <i class="fas fa-user icon-container"></i>Biography
+### <i class="fas fa-user icon-container"></i>Biography
 
 <div class="bio-text">
 I'm a first-year master student at <a href="https://casia.ac.cn" class="bio-link">Institute of Automation, Chinese Academy of Sciences (CASIA)</a>, under the supervision of <span class="bio-highlight">Professor Li Qi</span>. My research interests focus on <span class="bio-highlight">biometric recognition</span> and <span class="bio-highlight">artificial intelligence content generation</span>.
 </div>
 
 <div class="bio-text">
-I received my bachelor's degree from <a href="https://www.scu.edu.cn" class="bio-link">Sichuan University</a>, where I majored in Computer Science and Technology. I had a wonderful time with my friends in Chengdu, China from 2020-2024.
+I received my bachelor's degree in Computer Science and Technology from <a href="https://www.scu.edu.cn" class="bio-link">Sichuan University</a> (2020-2024). Currently, I'm pursuing my master's degree at CASIA (2024-Present), where I'm working on cutting-edge research in AI and computer vision.
 </div>
 
-<div class="bio-text">
-I maintain a <a href="#" class="bio-link">blog</a> (in Chinese) where I write about my life and study experience. Please feel free to contact me via <a href="mailto:dushuangjun@163.com" class="bio-link">email</a>.
-</div>
-
-## <i class="fas fa-graduation-cap icon-container"></i>Education
-
-<div class="custom-row">   
-    <div class="custom-column-text"> 
-        <h3>Sichuan University, Chengdu, P.R. China</h3>
-        <p><b>Bachelor of Engineering</b> (Sep. 2020 - 2024)</p>
-        <p><i>Major: Computer Science and Technology</i></p>
-        <p><b>GPA: 3.86/4.0</b></p>
-    </div>
-    <div class="custom-column-image">    
-        <img src="./images/scu.png" alt="Sichuan University">  
-    </div> 
-</div>
-
-<div class="custom-row">   
-    <div class="custom-column-text"> 
-        <h3>Institute of Automation, Chinese Academy of Sciences, Beijing, P.R. China</h3>
-        <p><b>Master of Science</b> (2024 - Present)</p>
-        <p><i>Research Areas: Biometric Recognition, AI Content Generation</i></p>
-        <p><b>Supervisor: Professor Li Qi</b></p>
-    </div>
-    <div class="custom-column-image">    
-        <img src="./images/casia.png" alt="CASIA">  
-    </div> 
+<div class="edu-logos">
+  <img src="./images/scu.png" alt="Sichuan University" class="edu-logo">
+  <img src="./images/casia.png" alt="CASIA" class="edu-logo">
 </div>
 
 
-## <i class="fas fa-award icon-container"></i>Honors & Awards
+
+### <i class="fas fa-award icon-container"></i>Honors & Awards
 
 <div class="award-item">
   <i class="fas fa-trophy" style="color: #f1c40f; margin-right: 10px;"></i>
@@ -134,7 +128,7 @@ I maintain a <a href="#" class="bio-link">blog</a> (in Chinese) where I write ab
   <span>13th CMC National Third Prize</span>
 </div>
 
-## <i class="fas fa-briefcase icon-container"></i>Internships
+### <i class="fas fa-briefcase icon-container"></i>Internships
 
 <div class="internship-row">   
   <div class="internship-text"> 
