@@ -109,7 +109,7 @@ redirect_from:
 </style>
 
 <div class="content-wrapper">
-## <i class="fas fa-user icon-container"></i>Biography
+<h2><i class="fas fa-user icon-container"></i>Biography</h2>
 
 <div class="bio-text">
 I'm a first-year master student at <a href="https://ia.cas.cn/" class="bio-link">Institute of Automation, Chinese Academy of Sciences (CASIA)</a>, under the supervision of <span class="bio-highlight">Associate Professor Li Qi</span>. My research interests focus on <span class="bio-highlight">biometric recognition</span> and <span class="bio-highlight">artificial intelligence content generation</span>.
@@ -124,7 +124,7 @@ I received my bachelor's degree in Computer Science and Technology from <a href=
   <img src="./images/casia.png" alt="CASIA" class="edu-logo">
 </div>
 
-## <i class="fas fa-award icon-container"></i>Honors & Awards
+<h2><i class="fas fa-award icon-container"></i>Honors & Awards</h2>
 
 <div class="award-item">
   <i class="fas fa-trophy" style="color: #f1c40f; margin-right: 10px;"></i>
@@ -135,7 +135,7 @@ I received my bachelor's degree in Computer Science and Technology from <a href=
   <span>13th CMC National Third Prize</span>
 </div>
 
-## <i class="fas fa-briefcase icon-container"></i>Internships
+<h2><i class="fas fa-briefcase icon-container"></i>Internships</h2>
 
 <div class="internship-row">   
   <div class="internship-text"> 
