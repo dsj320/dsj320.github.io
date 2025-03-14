@@ -30,20 +30,20 @@ I received my bachelor's degree in Computer Science and Technology from <a href=
 
 # 🎖 Honors and Awards
 
-- <i class="fas fa-trophy" style="color: #f1c40f; margin-right: 10px;"></i> 47th International Collegiate Programming Contest Asia Regional Contest (Shenyang) Silver Medal 🥈
-- <i class="fas fa-medal" style="color: #95a5a6; margin-right: 10px;"></i> 13th  Chinese Mathematics Competitions  (CMC) National Third Prize
+- 47th International Collegiate Programming Contest Asia Regional Contest (Shenyang) Silver Medal 🥈
+- 13th  Chinese Mathematics Competitions  (CMC) National Third Prize
 
 # 💻 Internships
 
-## OPPO Research Institute
-**Research Intern** (Nov. 2023 - Jan. 2024)
+- OPPO Research Institute
+  **Research Intern** (Nov. 2023 - Jan. 2024)
 
-*Projects:*
-- Facial Editing
-- Face Swapping
+  *Projects:*
+  - Facial Editing
+  - Face Swapping
 
-<div style="text-align: center; margin: 20px 0;">
-  <img src="./images/oppo.png" alt="OPPO" style="max-width: 100px; border-radius: 8px;">
-</div>
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="./images/oppo.png" alt="OPPO" style="max-width: 100px; border-radius: 8px;">
+  </div>
 
 
