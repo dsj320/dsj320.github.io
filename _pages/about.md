@@ -52,7 +52,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<div class="welcome-text">Welcome to my personal homepage！</div>
+Welcome to my personal homepage!
 
 <div class="intro-text">
 I'm a first-year master student at <a href="https://ia.cas.cn/">Institute of Automation, Chinese Academy of Sciences (CASIA)</a>, under the supervision of Associate Professor Li Qi. My research interests focus on <strong>biometric recognition</strong> and <strong>artificial intelligence content generation</strong>.
