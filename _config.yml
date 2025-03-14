@@ -32,9 +32,9 @@ comments:
     colorscheme          : # "light" (default), "dark"
   giscus:
     repo                 : "dsj320/dsj320.github.io" # GitHub username/repo-name
-    repo_id              : # GitHub repository ID
+    repo_id              : "R_kgDOLPubIg" # GitHub repository ID
     category             : "Announcements" # GitHub Discussions category
-    category_id          : # GitHub Discussions category ID
+    category_id          : "DIC_kwDOLPubIs4CoBM1" # GitHub Discussions category ID
     mapping              : "pathname" # "pathname" (default), "url", "title", "og:title"
     reactions_enabled    : "1" # '1' for enabled (default), '0' for disabled
     theme                : "light" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
