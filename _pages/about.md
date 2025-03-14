@@ -16,15 +16,37 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %} -->
 
 <style>
-  .intro-text {
-    font-size: 0.9em;
+  /* 全局样式：应用于所有非标题内容 */
+  .page__content p, 
+  .page__content li, 
+  .page__content div:not([class^="welcome"]):not([style*="display: flex"]), 
+  .page__content strong,
+  .page__content em,
+  .page__content a {
+    font-size: 0.9em !important;
     line-height: 1.5;
-    margin-bottom: 1em;
   }
+  
+  /* 欢迎文本样式 */
   .welcome-text {
-    font-size: 1.1em;
+    font-size: 1.1em !important;
     font-weight: 500;
     margin-bottom: 1em;
+  }
+  
+  /* 介绍文本样式 */
+  .intro-text {
+    margin-bottom: 1em;
+  }
+  
+  /* 确保标题不受影响 */
+  .page__content h1, 
+  .page__content h2, 
+  .page__content h3, 
+  .page__content h4, 
+  .page__content h5, 
+  .page__content h6 {
+    font-size: revert !important;
   }
 </style>
 
