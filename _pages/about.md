@@ -28,7 +28,7 @@ I received my bachelor's degree in Computer Science and Technology from <a href=
   <img src="./images/casia.png" alt="CASIA" style="max-width: 120px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 
-# 🎖 Honors and Award
+# 🎖 Honors and Awards
 
 - <i class="fas fa-trophy" style="color: #f1c40f; margin-right: 10px;"></i> 47th International Collegiate Programming Contest Asia Regional Contest (Shenyang) Silver Medal 🥈
 - <i class="fas fa-medal" style="color: #95a5a6; margin-right: 10px;"></i> 13th  Chinese Mathematics Competitions  (CMC) National Third Prize
